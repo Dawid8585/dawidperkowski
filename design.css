@@ -6,8 +6,8 @@ Name: Volnu2.css
 */
 
 * {box-sizing: border-box;}
-.hero-image {
-  background: rgba(76, 175, 80, 0.3);
+.main-image {
+  background: rgba(255 ,192 ,203 , 0.3);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ Name: Volnu2.css
   position: relative;
 }
 
-.hero-text {
+.main-text {
   text-align: center;
   position: absolute;
   top: 50%;
