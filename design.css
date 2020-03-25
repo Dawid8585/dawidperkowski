@@ -6,15 +6,51 @@ Name: Volnu2.css
 */
 
 * {box-sizing: border-box;}
+
+@font-face
+{
+	font-family:LuckiestGuy-Regular;
+	src: url(fonts/LuckiestGuy-Regular.ttf);
+	
+}
+@font-face
+{
+	font-family:RockSalt-Regular;
+	src: url(fonts/RockSalt-Regular.ttf);
+	
+}
 .main-image {
-  background: rgba(255 ,192 ,203 , 0.3);
+  left: 30%;
+  width: 600px;
+  background: rgba(255,192,203, 0.5);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border: inset;
+ 
 }
-
+.name-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 55px;
+  font-family: LuckiestGuy-Regular;
+}
+.logo-text{
+	  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 55px;
+  font-family: RockSalt-Regular;
+}
 .main-text {
   text-align: center;
   position: absolute;
