@@ -38,7 +38,7 @@ Name: My Website
     width: 600px;
     background: rgba(173, 216, 230, 0.5);
     height: 400px;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -101,7 +101,7 @@ Name: My Website
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
-    background-image: url(images/BlueNature.jpg);
+    background-image: url(https://imgur.com/WtFJwaC.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -110,7 +110,7 @@ Name: My Website
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
-    background-image: url(images/water.jpg);
+    background-image: url(https://imgur.com/KfNb2TY.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -194,7 +194,7 @@ Name: My Website
 .instaimage {
     height: 100px;
     width: 150px;
-    background-image: url(images/instagram.png);
+    background-image: url(https://imgur.com/aJx3IYv.jpg);
     background-size: 86%;
     position: fixed;
     top: 140px;
@@ -202,35 +202,33 @@ Name: My Website
     right: 80px;
 }
     .instaimage:hover {
-    background-image: url(images/instagrami.png);
-    transition: .60s;
-}
+        background-image: url(https://imgur.com/p8x17Ob.jpg);
+        transition: .60s;
+    }
 .linkimage {
     height: 80px;
     width: 120px;
-    background-image: url(images/linkedin.png);
+    background-image: url(https://imgur.com/mcb1B6e.jpg);
     background-size: 65%;
     position: fixed;
     top: 160px;
     left: 120px;
     background-repeat: no-repeat;
-    
 }
     .linkimage:link, visited {
-        background-image: url(images/linkedini.png);
+        background-image: url(https://imgur.com/hphxAuI.jpg);
         transition: .60s;
     }
 
-    .linkimage:hover,active{
-        background-image: url(images/linkedini.png);
+    .linkimage:hover, active {
+        background-image: url(https://imgur.com/hphxAuI.jpg);
         transition: .60s;
-        
     }
 
 .gitimage {
     height: 150px;
     width: 220px;
-    background-image: url(images/github.png);
+    background-image: url(https://imgur.com/V1kQJhx.jpg);
     background-size: 65%;
     position: fixed;
     top: 160px;
@@ -238,7 +236,7 @@ Name: My Website
     background-repeat: no-repeat;
 }
     .gitimage:hover {
-        background-image: url(images/githubi.png);
+        background-image: url(https://imgur.com/OkW4i4j.jpg);
         transition: .60s;
     }
 
