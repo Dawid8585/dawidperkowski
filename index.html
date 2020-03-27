@@ -11,8 +11,9 @@
   <a href="About.html">About</a>
   <a href="Contact.html">Contact</a>
   <div class="search-container">
-      <form action="https://www.google.com/#gws_rd=ssl">
-          <input type="text" placeholder="Google Search.." name="search">
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+          <input name="https://www.google.com/search" type="hidden">
+          <input autocomplete="on" class="form-control search" name="q" placeholder="Google Search.." required="required" type="text">
           <button type="submit"><i class="fa fa-search"></i> SUBMIT</button>
       </form>
   </div>
