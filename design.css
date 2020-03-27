@@ -19,43 +19,81 @@ Name: My Website
 }
 
 
-
-.about-image {
-    left: 30%;
-    top: 200px;
-    width: 600px;
-    background: rgba(173, 216, 230, 0.5);
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    border: inset;
-}
 .about-me {
     left: 30%;
-    top: 800px;
+    top: 850px;
     width: 600px;
     background: rgba(173, 216, 230, 0.5);
-    height: 400px;
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     border: inset;
 }
+.about-me-text {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: RockSalt-Regular;
+}
+
+.container {
+    position: center;
+    width: 50%;
+    top: 350px;
+ 
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+
+.me-image {
+    background: url(https://imgur.com/tQwKaLB.jpg) left top no-repeat;
+    border-radius: 50%;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+    position: absolute;
+    top: 160px;
+    background-repeat: no-repeat;
+}
+
 
 .main-image {
     left: 30%;
     top: 200px;
     width: 600px;
-    background: rgba(255,192,203, 0.5);
+    /*background: rgba(255,192,203, 0.5);*/
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    border: inset;
+    /*border: inset;*/
 }
 
 .fname-text {
@@ -92,6 +130,7 @@ Name: My Website
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
+    height:auto;
     background-image: url( https://i.imgur.com/JRNguq7.jpg );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,6 +140,7 @@ Name: My Website
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
+    height: auto;
     background-image: url( https://imgur.com/WtFJwaC.jpg );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -110,6 +150,7 @@ Name: My Website
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
+    height: auto;
     background-image: url(https://imgur.com/KfNb2TY.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -157,13 +198,13 @@ Name: My Website
 
     .topnav .search-container button {
         float: right;
-        padding: 9px 35px;
+        padding: 9.4px 35px;
         margin-top: 8px;
         margin-right: 16px;
         background: pink;
         font-size: 15px;
         border: hidden;
-        border-radius: 15px 50px 30px 5px;
+        border-radius: 0px 50px 30px 5px;
         cursor: pointer;
     }
 
