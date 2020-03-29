@@ -87,7 +87,7 @@ Name: My Website
     left: 30%;
     top: 200px;
     width: 600px;
-    background: rgba(210,105,30,0.5);
+    /*background: rgba(210,105,30,0.5);*/
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,8 +131,8 @@ Name: My Website
     font-family: Arial, Helvetica, sans-serif;
     color: #FCEEC5;
     height:auto;
-    background-image: url( https://res.cloudinary.com/simpleview/image/upload/v1497480003/clients/lasvegas/strip_b86ddbea-3add-4995-b449-ac85d700b027.jpg);
-    background-repeat: no-repeat; /*https://i.imgur.com/JRNguq7.jpg*/
+    background-image: url(https://i.imgur.com/JRNguq7.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
